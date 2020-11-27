@@ -19,10 +19,20 @@ public class AddressMethod {
 
 	public void Show() {
 		// TODO Auto-generated method stub
+		Iterator itr = addressBook.iterator();
+		while (itr.hasNext()) {
+			Address address = (Address) itr.next();
+			System.out.println("Name- " + address.getFirst_Name() + " " + address.getLast_Name());
+			System.out.println("Address- " + address.getAddress());
+			System.out.println("Zip- " + address.getZip());
+			System.out.println("Phone Number- " + address.getPhone_Number());
+			System.out.println("Email - " + address.getEmail());
+		}
+	}
 		
 	}
 
-
-	}
+	
+	
 
 	

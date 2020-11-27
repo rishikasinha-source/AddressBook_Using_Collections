@@ -8,6 +8,7 @@ public class AddressBook {
 		AddressMethod address=new AddressMethod();
 		address.Add();
 		address.Show();
+		
 	}
 	}
 		
